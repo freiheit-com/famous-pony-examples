@@ -1,2 +1,2 @@
 # famous-pony-examples
-Example code of a famous introduction presentation
+Example code of a famo.us introduction presentation
