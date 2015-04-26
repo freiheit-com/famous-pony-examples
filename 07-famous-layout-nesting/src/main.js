@@ -19,6 +19,7 @@ function newColouredSurface(colour) {
 
 var ratios = [200, 100, 50, 25, 12, 6, 3, 2, 1];
 
+/* Nested Layout */
 var nestedLayout = new FlexibleLayout({
 	direction: 1, /*means Y*/
 	ratios: ratios
@@ -30,7 +31,7 @@ for(var i=0;i<ratios.length; i++) {
 nestedLayout.sequenceFrom(nestedSurfaces);
 
 
-
+/* Outer Layout */
 var layout = new FlexibleLayout({
 	ratios: ratios
 });

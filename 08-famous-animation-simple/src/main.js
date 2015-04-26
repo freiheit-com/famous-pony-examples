@@ -14,7 +14,7 @@ var pony = new ImageSurface({
 });
 
 function startGallop(gallop) {
-  gallop.setAlign([1,0.5], {duration: 4000}); 
+  gallop.setAlign([1, 0.5], {duration: 4000}); 
 }
 
 var gallop = new Modifier();
